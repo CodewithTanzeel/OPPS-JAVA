@@ -14,3 +14,5 @@ public class SalesTax {
     System.out.println("Sales tax is " + (int)(tax * 100) / 100.0);
   }
 }
+
+// sales tax program 
