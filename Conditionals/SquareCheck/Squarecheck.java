@@ -13,7 +13,6 @@ public class SquareCheck{
        }
        else{
           System.out.print("It is not a Square");
-       }
-   }
-    
+    }
+}
 }

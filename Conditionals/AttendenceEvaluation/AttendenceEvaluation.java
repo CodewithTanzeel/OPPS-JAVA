@@ -11,10 +11,10 @@ public class AttendenceEvaluation {
         double percentage = ((TotalClassesAttended/TotalClasses)*100);
         System.out.println("Total no of classes were"+TotalClasses+"and the no of classes i attended were"+TotalClassesAttended+"my Attendence Percentage is"+percentage);
 
-        if( percertage >= 75){
-            System.out.print("you are allowed to attend classes")
+        if( percentage >= 75){
+            System.out.print("you are allowed to attend classes");
         } else{
-            System.out.print("You arent Allowed to attend classes")
+            System.out.print("You arent Allowed to attend classes");
         }
 
             }
