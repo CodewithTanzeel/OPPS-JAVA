@@ -17,5 +17,6 @@ public class AttendenceEvaluation {
             System.out.print("You arent Allowed to attend classes");
         }
 
-            }
 }
+}
+
