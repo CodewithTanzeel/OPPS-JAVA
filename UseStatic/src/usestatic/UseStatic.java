@@ -9,12 +9,29 @@ package usestatic;
  * @author FATTANI COMPUTERS
  */
 public class UseStatic {
-
-    /**
-     * @param args the command line arguments
-     */
+    static int a = 3;
+    static int b;
+    static void meth(int x){
+        System.out.println("x : "+x);
+        System.out.println("a : "+a);
+        System.out.println("b : "+b);
+        
+    }
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        System.out.println(UseStatic.a);
+                System.out.println(UseStatic.b);
+                meth(42);
+        
+    }
+    static {
+        System.out.println("Static block Initialized");
+        b = a*4;
+                
     }
     
 }
+
+
+//Difference between Static initializer block and normal initializer block homework.
+

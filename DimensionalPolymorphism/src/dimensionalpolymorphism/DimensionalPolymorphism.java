@@ -17,12 +17,9 @@ public class DimensionalPolymorphism {
    }
    void area(){
        System.out.println("area is undefined");
-      
-       
    }
    public String toString(){
       return "Dim1 = "+this.dim1;
-       
    }
     
 }
